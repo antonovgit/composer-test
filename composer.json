@@ -1,0 +1,21 @@
+{
+    "name": "d.antonov/composer-test-packagist",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Dmitrii Antonov",
+            "email": "d.antonovbox@gmail.com"
+        }
+    ],
+	"autoload": {
+		"prs-4": {
+			"antonov\\parser\\": "src/"
+		}
+	},
+    "minimum-stability": "stable"
+}
