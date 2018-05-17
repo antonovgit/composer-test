@@ -1,5 +1,5 @@
 {
-    "name": "d.antonov/composer-test-packagist",
+    "name": "antonov/composer-test-packagist",
     "description": "Example project",
     "type": "library",
     "require": {
@@ -13,8 +13,8 @@
         }
     ],
 	"autoload": {
-		"prs-4": {
-			"antonov\\parser\\": "src/"
+		"psr-4": {
+		    "antonov\\parser\\": "src/"
 		}
 	},
     "minimum-stability": "stable"
